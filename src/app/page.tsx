@@ -3,7 +3,7 @@ import { AuroraBackgroundHero } from "@ui/hero/Hero";
 
 import { WobbleCard } from "@/ui/components/woobleCard/WoobleCard";
 
-export const projects = [
+const projects = [
   {
     title: "Llama",
     description: "Llama 3, Llama 2, Hermes-2-Pro-Llama-3",
