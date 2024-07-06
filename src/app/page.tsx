@@ -1,5 +1,6 @@
 import { HoverEffect } from "@ui/components/cardHoverEffect/CardHoverEfffect";
 import { AuroraBackgroundHero } from "@ui/hero/Hero";
+import Link from "next/link";
 
 import { WobbleCard } from "@/ui/components/woobleCard/WoobleCard";
 
@@ -82,6 +83,12 @@ export default function Home() {
               </p>
             </div>
           </WobbleCard>
+        </div>
+        <div className="flex items-center justify-center p-2">
+          <h3 className="transition-colors hover:text-primary-500">
+            Made by{" "}
+            <Link href="https://vladimircuriel.me">Vladimir Curiel</Link>
+          </h3>
         </div>
       </div>
     </section>
