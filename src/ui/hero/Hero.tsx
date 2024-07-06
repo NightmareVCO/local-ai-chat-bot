@@ -19,7 +19,7 @@ export function AuroraBackgroundHero() {
         className="relative flex flex-col items-center justify-center gap-4 px-4"
       >
         <div className="text-3xl font-bold text-center md:text-7xl dark:text-white">
-          <h1>Explore my local multimodal AI chatbot.</h1>
+          <h1>Explore my local multi-model AI chatbot.</h1>
         </div>
         <div className="py-4 text-base font-extralight md:text-4xl dark:text-neutral-200">
           <h2>{`It's completely free. No registration required.`}</h2>
